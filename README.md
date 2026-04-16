@@ -19,8 +19,8 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 ## ⚙️ Set up
 
 ```bash
-git clone https://github.com/yongliang-wu/DFT.git
-cd DFT
+git https://github.com/ZJU-OmniAI/GFT.git
+cd GFT
 
 conda create -n DFT python=3.10 -y
 conda activate DFT

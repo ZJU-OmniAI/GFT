@@ -1,0 +1,8 @@
+{"time":"2025-11-01T13:27:50.051860121Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmp5dn1dsfl/port-1918035.txt","pid":1918035,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-11-01T13:27:50.0532662Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":1918035}
+{"time":"2025-11-01T13:27:50.053256666Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1918035-1948465-2156604150/socket","Net":"unix"}}
+{"time":"2025-11-01T13:27:50.211508751Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-11-01T13:27:50.223801795Z","level":"INFO","msg":"handleInformInit: received","streamId":"ae1bcnuu","id":"1(@)"}
+{"time":"2025-11-01T13:27:50.894676182Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"ae1bcnuu","id":"1(@)"}
+{"time":"2025-11-01T13:28:19.940600433Z","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"ae1bcnuu","id":"1(@)"}
+{"time":"2025-11-01T13:28:19.941571744Z","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"ae1bcnuu","id":"1(@)"}

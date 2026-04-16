@@ -1,0 +1,8 @@
+{"time":"2025-11-01T13:46:44.758418927Z","level":"INFO","msg":"main: starting server","port-filename":"/tmp/tmpe_tzsba4/port-1969951.txt","pid":1969951,"log-level":0,"disable-analytics":false,"shutdown-on-parent-exit":false,"enable-dcgm-profiling":false}
+{"time":"2025-11-01T13:46:44.75969489Z","level":"INFO","msg":"server: will exit if parent process dies","ppid":1969951}
+{"time":"2025-11-01T13:46:44.759689718Z","level":"INFO","msg":"server: accepting connections","addr":{"Name":"/tmp/wandb-1969951-2002397-2817229654/socket","Net":"unix"}}
+{"time":"2025-11-01T13:46:44.919043161Z","level":"INFO","msg":"connection: ManageConnectionData: new connection created","id":"1(@)"}
+{"time":"2025-11-01T13:46:44.929240866Z","level":"INFO","msg":"handleInformInit: received","streamId":"s11b70ep","id":"1(@)"}
+{"time":"2025-11-01T13:46:45.199522793Z","level":"INFO","msg":"handleInformInit: stream started","streamId":"s11b70ep","id":"1(@)"}
+{"time":"2025-11-01T13:47:16.992151013Z","level":"INFO","msg":"handleInformFinish: finish message received","streamId":"s11b70ep","id":"1(@)"}
+{"time":"2025-11-01T13:47:16.993011538Z","level":"INFO","msg":"handleInformFinish: stream closed","streamId":"s11b70ep","id":"1(@)"}

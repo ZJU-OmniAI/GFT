@@ -11,10 +11,14 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 - [2025/04/06] Our work is accepted by ACL 2026 Findings.🎇🎇🎇
 
 ## 👀 Introduction
+<img src="./docs/intro.png" style="zoom:100%;" />
 
 ## 🧠 Method
+<img src="./docs/method.png" style="zoom:100%;" />
 
 ## 🏆 Performance
+<img src="./docs/performance_1.png" style="zoom:100%;" />
+<img src="./docs/performance_2.png" style="zoom:100%;" />
 
 ## ⚙️ Set up
 

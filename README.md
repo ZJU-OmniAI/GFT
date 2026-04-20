@@ -8,7 +8,8 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 </div>
 
 ## 🔥 News
-- [2025/04/06] Our work is accepted by ACL 2026 Findings.🎇🎇🎇
+- **[2025/04/06] Our work is accepted by ACL 2026 Findings.🎇🎇🎇**
+- [2026/04/20] We have officially open-sourced the training scripts and codebase for GFT!
 
 ## 👀 Introduction
 Large language models (LLMs) rely heavily on Supervised Fine-Tuning (SFT) and Reinforcement Learning (RL). However, standard SFT suffers from two critical flaws when viewed from a training-dynamics perspective:

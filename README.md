@@ -30,6 +30,7 @@ Large language models (LLMs) rely heavily on Supervised Fine-Tuning (SFT) and Re
 
 ## ⚙️ Set up
 ### 0. Environment
+> **💡 Tip:** For detailed environment setup instructions, please refer to the [verl framework](https://github.com/verl-project/verl).
 ```bash
 git https://github.com/ZJU-OmniAI/GFT.git
 cd GFT
@@ -41,7 +42,7 @@ bash scripts/install_vllm_sglang_mcore.sh
 pip install --no-deps -e .
 ```
 
-### 2. Train
+### 1. Train
 > **💡 Tip:** For a complete and ready-to-use training configuration, please refer to the example script at [`./example/gft_trainer/run_qwen2.5-math-1.5B.sh`](./example/gft_trainer/run_qwen2.5-math-1.5B.sh).
 ```bash
 #!/bin/bash

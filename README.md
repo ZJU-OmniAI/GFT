@@ -25,7 +25,6 @@ Large language models (LLMs) rely heavily on Supervised Fine-Tuning (SFT) and Re
 ## 🏆 Performance
 * **Exceptional Data Efficiency:** With only **10k** training samples, GFT surpasses standard SFT trained on **100k** samples across multiple math-reasoning benchmarks (AMC23, MATH, OlympiadBench, etc.).
 * **Solving the Synergy Dilemma:** Conventional `SFT -> GRPO` pipelines often underperform. GFT preserves policy entropy and diverse reasoning paths, making the `SFT -> GFT -> GRPO` pipeline yield a significantly higher performance ceiling.
-* **Mitigating Catastrophic Forgetting:** GFT actively suppresses gradient explosions on extreme tokens, keeping the KL-divergence shift significantly lower than SFT and preserving base-model capabilities (e.g., MMLU-STEM performance).
 <img src="./docs/performance_1.png" style="zoom:100%;" />
 <img src="./docs/performance_2.png" style="zoom:100%;" />
 

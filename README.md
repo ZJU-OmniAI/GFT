@@ -42,6 +42,7 @@ pip install --no-deps -e .
 ```
 
 ### 2. Train
+> **💡 Tip:** For a complete and ready-to-use training configuration, please refer to the example script at [`./example/gft_trainer/run_qwen2.5-math-1.5B.sh`](./example/gft_trainer/run_qwen2.5-math-1.5B.sh).
 ```bash
 #!/bin/bash
 set -x

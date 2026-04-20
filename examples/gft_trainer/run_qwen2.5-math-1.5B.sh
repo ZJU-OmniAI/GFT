@@ -1,31 +1,29 @@
 #!/bin/bash
 set -x
 
-export TMPDIR=/home/data/gwj/tmp_ray
+project_name=GFT # Project name
+experiment_name="qwen-math-1.5B-GFT" # Experiment name
+train_path="" # Path to the training data
+test_path="" # Path to the test data
+train_batch_size=128 # Batch size
+data_max_prompt_length=1024 # Maximum prompt length
+data_max_response_length=2048 # Maximum response length
+n_gpus_per_node=4
+vllm_tensor_model_parallel_size=4
 
-project_name=GFT
-experiment_name="qwen-math-1.5B-GFT"
-train_path=/home/gwj/ACL2026/GFT/data_preprocess/results/output.parquet
-test_path=/home/gwj/ACL2026/GFT/DFT/data/test_data/processed/test.parquet
-train_batch_size=128
-data_max_prompt_length=1024
-data_max_response_length=2048
-n_gpus_per_node=2
-vllm_tensor_model_parallel_size=2
-
-gft_loss_tao=0.1
-model_path=/home/gwj/ACL2026/models/BaseModel/Qwen2.5-Math-1.5B
-data_teacher_count=4
-data_student_count=4
+gft_loss_tao=0.1 # Threshold for gradient clipping
+model_path="" # Path to the base model for training
+data_teacher_count=4 # Number of off-policy data samples during training
+data_student_count=4 # Number of on-policy rollout samples during training
 micro_batch_size_per_gpu=16
 gpu_memory_utilization=0.4
-save_path=/home/data/gwj/output/GFT_Qwen_math_1.5B_t_0_1
+save_path="" # Path to save checkpoints
 
 
 train_files="['$train_path']"
 test_files="['$test_path']"
 
-CUDA_VISIBLE_DEVICES=0,1 python -m verl.trainer.main_ppo \
+CUDA_VISIBLE_DEVICES=0,1,2,3 python -m verl.trainer.main_ppo \
     algorithm.adv_estimator=grpo \
     data.train_files="$train_files" \
     data.val_files="$test_files" \
@@ -66,10 +64,7 @@ CUDA_VISIBLE_DEVICES=0,1 python -m verl.trainer.main_ppo \
     trainer.default_local_dir=$save_path \
     trainer.n_gpus_per_node=$n_gpus_per_node \
     trainer.nnodes=1 \
-    trainer.save_freq=10 \
-    trainer.test_freq=5000 \
+    trainer.save_freq=100 \
+    trainer.test_freq=-1 \
     trainer.val_before_train=False \
     trainer.total_epochs=1 $@
-
-# trainer.resume_mode=resume_path \
-# trainer.resume_from_path=/home/gwj/ACL2026/GFT/DFT/outputs/GFT/global_step_50 \

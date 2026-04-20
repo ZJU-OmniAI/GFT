@@ -29,7 +29,7 @@ Large language models (LLMs) rely heavily on Supervised Fine-Tuning (SFT) and Re
 <img src="./docs/performance_2.png" style="zoom:100%;" />
 
 ## ⚙️ Set up
-
+### 0. Environment
 ```bash
 git https://github.com/ZJU-OmniAI/GFT.git
 cd GFT
@@ -40,4 +40,7 @@ cd verl
 bash scripts/install_vllm_sglang_mcore.sh
 pip install --no-deps -e .
 ```
+
+### 2. Train
+
 

@@ -4,6 +4,7 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 <div align="center">
 
 [[📖 Paper](https://arxiv.org/abs/2604.14258)] [[🤗 Daily-Paper](https://huggingface.co/papers/2604.14258)][[📕 Xiaohongshu](https://www.xiaohongshu.com/discovery/item/69e66457000000001a032553?source=webshare&xhsshare=pc_web&xsec_token=CBU0-QHr7JNxxol3-DWmVAkbWkYXVVpRipUWGPGvAH3hs=&xsec_source=pc_share)]
+![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)
 
 </div>
 

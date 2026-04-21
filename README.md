@@ -44,7 +44,7 @@ pip install --no-deps -e .
 ```
 
 ### 1. Train
-`Train data: [[🤗 NuminaMath-Cot-Distillation-10W](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K)]`
+`Train data:` [[🤗 NuminaMath-Cot-Distillation-10W](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K)]
 > **💡 Tip:** For a complete and ready-to-use training configuration, please refer to the example script at [`./example/gft_trainer/run_qwen2.5-math-1.5B.sh`](./example/gft_trainer/run_qwen2.5-math-1.5B.sh).
 ```bash
 #!/bin/bash

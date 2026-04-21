@@ -3,7 +3,7 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 
 <div align="center">
 
-[[📖 Paper](https://arxiv.org/abs/2604.14258)] [[🤗 NuminaMath-Cot-Distillation-10W](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K)]
+[[📖 Paper](https://arxiv.org/abs/2604.14258)] [[🤗 Daily-Paper](https://huggingface.co/papers/2604.14258)][[🤗 NuminaMath-Cot-Distillation-10W](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K)][[📕 Xiaohongshu]([https://arxiv.org/abs/2604.14258](https://www.xiaohongshu.com/discovery/item/69e66457000000001a032553?source=webshare&xhsshare=pc_web&xsec_token=CBU0-QHr7JNxxol3-DWmVAkbWkYXVVpRipUWGPGvAH3hs=&xsec_source=pc_share))]
 
 </div>
 

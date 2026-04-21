@@ -5,8 +5,6 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 
 [[📖 Paper](https://arxiv.org/abs/2604.14258)] [[🤗 Daily-Paper](https://huggingface.co/papers/2604.14258)][[📕 Xiaohongshu](https://www.xiaohongshu.com/discovery/item/69e66457000000001a032553?source=webshare&xhsshare=pc_web&xsec_token=CBU0-QHr7JNxxol3-DWmVAkbWkYXVVpRipUWGPGvAH3hs=&xsec_source=pc_share)]
 
-[[🤗 NuminaMath-Cot-Distillation-10W](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K)]
-
 </div>
 
 ## 🔥 News
@@ -46,6 +44,7 @@ pip install --no-deps -e .
 ```
 
 ### 1. Train
+[[🤗 NuminaMath-Cot-Distillation-10W](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K)]
 > **💡 Tip:** For a complete and ready-to-use training configuration, please refer to the example script at [`./example/gft_trainer/run_qwen2.5-math-1.5B.sh`](./example/gft_trainer/run_qwen2.5-math-1.5B.sh).
 ```bash
 #!/bin/bash

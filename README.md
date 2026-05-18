@@ -120,3 +120,16 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m verl.trainer.main_ppo \
 
 ```
 
+## 📝 Citation
+
+If you find our work helpful, please cite:
+
+```bibtex
+@article{gan2026gft,
+  title     = {GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dynamic Coefficient Rectification},
+  author    = {Gan, Wangjie and Pan, Miao and Xi, Linbo and Zhang, Wenqi and Chen, Jintao and Yin, Jianwei and Zhang, Xuhong},
+  journal   = {arXiv preprint arXiv:2604.14258},
+  year      = {2026}
+}
+```
+

@@ -121,7 +121,7 @@ CUDA_VISIBLE_DEVICES=0,1,2,3 python -m verl.trainer.main_ppo \
 ```
 
 ## 📖 Citation
-If you use this dataset in your research, please cite our ACL paper:
+If you want to cite our paper:
 
 ```bibtex
 @article{gan2026gft,

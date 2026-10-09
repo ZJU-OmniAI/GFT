@@ -8,13 +8,15 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 </div>
 
 <!-- hf-downloads:start -->
+
 ## Hugging Face downloads
 
-All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+Automatically updated all-time counts from Hugging Face. Badges are cached and may lag behind the source. [Refresh details](https://github.com/ZJU-OmniAI/.github/tree/main/metrics).
 
 | Resource | Type | All-time downloads |
 | :--- | :--- | ---: |
-| [NuminaMath-Cot-Distillation-100K](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K) | Dataset | [365](https://huggingface.co/api/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K?expand%5B%5D=downloadsAllTime) |
+| [NuminaMath-Cot-Distillation-100K](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K) | Dataset | [![downloads](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fhuggingface.co%2Fapi%2Fdatasets%2FOmniAI-ZJU%2FNuminaMath-Cot-Distillation-100K%3Fexpand%255B%255D%3DdownloadsAllTime&query=%24.downloadsAllTime&label=downloads&color=FFD21E&logo=huggingface&cacheSeconds=300)](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K) |
+
 <!-- hf-downloads:end -->
 
 ## 🔥 News

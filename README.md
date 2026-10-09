@@ -7,6 +7,16 @@ GFT: From Imitation to Reward Fine-Tuning with Unbiased Group Advantages and Dyn
 
 </div>
 
+<!-- hf-downloads:start -->
+## Hugging Face downloads
+
+All-time download counts as of **2026-10-10 (UTC+8)**. Each count links to the Hugging Face API (`downloadsAllTime`).
+
+| Resource | Type | All-time downloads |
+| :--- | :--- | ---: |
+| [NuminaMath-Cot-Distillation-100K](https://huggingface.co/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K) | Dataset | [365](https://huggingface.co/api/datasets/OmniAI-ZJU/NuminaMath-Cot-Distillation-100K?expand%5B%5D=downloadsAllTime) |
+<!-- hf-downloads:end -->
+
 ## 🔥 News
 - **[2025/04/06] Our work is accepted by ACL 2026 Findings.🎇🎇🎇**
 - [2026/04/20] We have officially open-sourced the training scripts and codebase for GFT!
